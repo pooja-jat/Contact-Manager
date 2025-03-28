@@ -5,7 +5,7 @@ const ContactContext = createContext();
 
 export const ContactProvider = ({ children }) => {
   const initialState = {
-    contacts: [{ name: "aman", email: "aman@aman", phone: "90" }],
+    contacts: [],
     edit: { contact: {}, isEdit: false },
   };
 
